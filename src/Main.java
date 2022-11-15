@@ -5,11 +5,12 @@ public class Main {
         int age = 42;
         int salary = 110_000;
 
-        double creditLimit = 0;
+        double creditLimit;
 
         if (age >= 23) {
             creditLimit = salary * 3;
-        } else {
+        }
+        else {
             creditLimit = salary * 2;
         }
         if (salary >= 50_000 && salary < 80_000) {
